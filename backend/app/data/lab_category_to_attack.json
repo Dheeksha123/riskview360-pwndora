@@ -1,0 +1,222 @@
+{
+  "Network Scanning": [
+    {
+      "id": "T1595",
+      "name": "Active Scanning",
+      "tactic": "reconnaissance"
+    },
+    {
+      "id": "T1526",
+      "name": "Cloud Service Discovery",
+      "tactic": "discovery"
+    },
+    {
+      "id": "T1043",
+      "name": "Commonly Used Port",
+      "tactic": "command-and-control"
+    },
+    {
+      "id": "T1039",
+      "name": "Data from Network Shared Drive",
+      "tactic": "collection"
+    }
+  ],
+  "Phishing Simulation": [
+    {
+      "id": "T1667",
+      "name": "Email Bombing",
+      "tactic": "impact"
+    },
+    {
+      "id": "T1114",
+      "name": "Email Collection",
+      "tactic": "collection"
+    },
+    {
+      "id": "T1672",
+      "name": "Email Spoofing",
+      "tactic": "stealth"
+    },
+    {
+      "id": "T1534",
+      "name": "Internal Spearphishing",
+      "tactic": "lateral-movement"
+    }
+  ],
+  "Password Attacks": [
+    {
+      "id": "T1110",
+      "name": "Brute Force",
+      "tactic": "credential-access"
+    },
+    {
+      "id": "T1555",
+      "name": "Credentials from Password Stores",
+      "tactic": "credential-access"
+    },
+    {
+      "id": "T1503",
+      "name": "Credentials from Web Browsers",
+      "tactic": "credential-access"
+    },
+    {
+      "id": "T1081",
+      "name": "Credentials in Files",
+      "tactic": "credential-access"
+    }
+  ],
+  "Privilege Escalation": [
+    {
+      "id": "T1548",
+      "name": "Abuse Elevation Control Mechanism",
+      "tactic": "privilege-escalation"
+    },
+    {
+      "id": "T1514",
+      "name": "Elevated Execution with Prompt",
+      "tactic": "privilege-escalation"
+    },
+    {
+      "id": "T1190",
+      "name": "Exploit Public-Facing Application",
+      "tactic": "initial-access"
+    },
+    {
+      "id": "T1203",
+      "name": "Exploitation for Client Execution",
+      "tactic": "execution"
+    }
+  ],
+  "Lateral Movement": [
+    {
+      "id": "T1210",
+      "name": "Exploitation of Remote Services",
+      "tactic": "lateral-movement"
+    },
+    {
+      "id": "T1133",
+      "name": "External Remote Services",
+      "tactic": "persistence"
+    },
+    {
+      "id": "T1570",
+      "name": "Lateral Tool Transfer",
+      "tactic": "lateral-movement"
+    },
+    {
+      "id": "T1075",
+      "name": "Pass the Hash",
+      "tactic": "lateral-movement"
+    }
+  ],
+  "Web Application Exploitation": [
+    {
+      "id": "T1527",
+      "name": "Application Access Token",
+      "tactic": "stealth"
+    },
+    {
+      "id": "T1017",
+      "name": "Application Deployment Software",
+      "tactic": "lateral-movement"
+    },
+    {
+      "id": "T1071",
+      "name": "Application Layer Protocol",
+      "tactic": "command-and-control"
+    },
+    {
+      "id": "T1138",
+      "name": "Application Shimming",
+      "tactic": "persistence"
+    }
+  ],
+  "Persistence": [
+    {
+      "id": "T1538",
+      "name": "Cloud Service Dashboard",
+      "tactic": "discovery"
+    },
+    {
+      "id": "T1499",
+      "name": "Endpoint Denial of Service",
+      "tactic": "impact"
+    },
+    {
+      "id": "T1567",
+      "name": "Exfiltration Over Web Service",
+      "tactic": "exfiltration"
+    },
+    {
+      "id": "T1031",
+      "name": "Modify Existing Service",
+      "tactic": "persistence"
+    }
+  ],
+  "Defense Evasion": [
+    {
+      "id": "T1001",
+      "name": "Data Obfuscation",
+      "tactic": "command-and-control"
+    },
+    {
+      "id": "T1622",
+      "name": "Debugger Evasion",
+      "tactic": "stealth"
+    },
+    {
+      "id": "T1140",
+      "name": "Deobfuscate/Decode Files or Information",
+      "tactic": "stealth"
+    },
+    {
+      "id": "T1686",
+      "name": "Disable or Modify System Firewall",
+      "tactic": "defense-impairment"
+    }
+  ],
+  "Command and Control / Exfiltration": [
+    {
+      "id": "T1020",
+      "name": "Automated Exfiltration",
+      "tactic": "exfiltration"
+    },
+    {
+      "id": "T1094",
+      "name": "Custom Command and Control Protocol",
+      "tactic": "command-and-control"
+    },
+    {
+      "id": "T1048",
+      "name": "Exfiltration Over Alternative Protocol",
+      "tactic": "exfiltration"
+    },
+    {
+      "id": "T1041",
+      "name": "Exfiltration Over C2 Channel",
+      "tactic": "exfiltration"
+    }
+  ],
+  "Discovery": [
+    {
+      "id": "T1087",
+      "name": "Account Discovery",
+      "tactic": "discovery"
+    },
+    {
+      "id": "T1010",
+      "name": "Application Window Discovery",
+      "tactic": "discovery"
+    },
+    {
+      "id": "T1217",
+      "name": "Browser Information Discovery",
+      "tactic": "discovery"
+    },
+    {
+      "id": "T1580",
+      "name": "Cloud Infrastructure Discovery",
+      "tactic": "discovery"
+    }
+  ]
+}

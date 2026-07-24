@@ -15,10 +15,7 @@ from typing import Any, Dict, List
 
 import yaml
 
-try:
-    from data_generator import generate_users
-except ImportError:  # pragma: no cover
-    from backend.app.data_generator import generate_users
+from app.data_generator import generate_users
 
 
 ConfigType = Dict[str, Any]

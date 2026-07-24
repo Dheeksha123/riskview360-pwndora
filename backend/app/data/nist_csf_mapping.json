@@ -1,0 +1,12 @@
+{
+  "Command and Control / Exfiltration": "Respond",
+  "Defense Evasion": "Detect",
+  "Discovery": "Identify",
+  "Lateral Movement": "Detect",
+  "Network Scanning": "Identify",
+  "Password Attacks": "Protect",
+  "Persistence": "Respond",
+  "Phishing Simulation": "Detect",
+  "Privilege Escalation": "Protect",
+  "Web Application Exploitation": "Protect"
+}

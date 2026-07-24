@@ -38,7 +38,7 @@ NIST_MAP: Dict[str, str] = {
     "Privilege Escalation": "Protect",
     "Lateral Movement": "Detect",
     "Web Application Exploitation": "Protect",
-    "Persistence": "Respond",
+    "Persistence": "Recover",
     "Defense Evasion": "Detect",
     "Command and Control / Exfiltration": "Respond",
     "Discovery": "Identify",
@@ -71,8 +71,8 @@ JUSTIFICATIONS: Dict[str, str] = {
         "therefore Protect is appropriate."
     ),
     "Persistence": (
-        "Exercises for removing persistent footholds and playbooks map to response actions; "
-        "these labs support Respond."
+        "Exercises for removing persistent footholds and playbooks map to recovery and restoration activities; "
+        "these labs align with Recover."
     ),
     "Defense Evasion": (
         "Detecting evasion techniques (logging, anomaly detection) allows defenders to find stealthy activity; "

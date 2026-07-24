@@ -1,0 +1,29 @@
+# Configuration for the PWNDORA cybersecurity posture scoring engine.
+# This file is the single source of truth for scoring weights and thresholds.
+
+nist_csf_function_weights:
+  # Weight for the Identify function in overall posture score aggregation.
+  Identify: 0.20
+
+  # Weight for the Protect function in overall posture score aggregation.
+  Protect: 0.25
+
+  # Weight for the Detect function in overall posture score aggregation.
+  Detect: 0.25
+
+  # Weight for the Respond function in overall posture score aggregation.
+  Respond: 0.20
+
+  # Weight for the Recover function in overall posture score aggregation.
+  Recover: 0.10
+
+min_score_threshold: 50
+# Any category score below this threshold is considered a failure topic.
+
+coverage_pass_threshold: 60
+# A technique must score at least this value to count as covered.
+
+overall_score_scale:
+  min: 0
+  max: 100
+# Overall posture scores are normalized to this inclusive scale.
